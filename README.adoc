@@ -1,0 +1,57 @@
+:document-title: rbgo-random: Tools for all things arbitrary!
+:table-caption: off
+
+= *rbgo-random*
+
+[.big]"`**_Tools for all things arbitrary!_**`"
+
+[caption="" cols="25h,~m" frame=all grid=all width=100%]
+|===
+
+|last update
+|20230714
+
+|language
+|C++
+
+|namespace
+|rbgo
+
+|library ref
+|rbgotech/rbgo-random
+
+|entry points
+|rbgo-random.h
+
+|dependencies
+|rbgotech/rbgo-(types\|time)
+
+|environment
+|VSCode, Platformio
+
+|platform
+|native; linux_x86_64; 
+
+|framework
+|all
+
+|call deps
+|stdlib.h(rand, srand); rbgo-time.h(tsc_ns_u32);
+|===
+
+=== Description
+
+This repository represents a library that is about generating arbitrary things. Note the system call deps above; if a system lacks one of those, this lib is probably not usable.
+
+.Functionality
+[options="header" caption="" cols="4h,6m" frame=all grid=all width=100%]
+|===
+|function
+|description
+
+2+^m|`#Random Number#` functions +
+
+|Tu32 rnd32(Tu32 mn, Tu32 mx)
+|Random number generator, between given inputs, inclusive, 32 bits unsigned at max.
+
+|===
