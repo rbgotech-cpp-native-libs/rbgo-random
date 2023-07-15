@@ -19,6 +19,6 @@
 		"rbgotech/rbgo-types": "*",
 		"rbgotech/rbgo-time": "*"
 	},
-	"frameworks": "native",
-	"platforms": "*"
+	"platforms": "native",
+	"frameworks": "*"
 }

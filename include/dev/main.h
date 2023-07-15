@@ -1,4 +1,5 @@
 #pragma once
+#ifdef RBGORANDOM_DEVMAIN
 #include <rbgo-random.h>
 
 
@@ -21,3 +22,4 @@ private:
 };
 
 }//ns
+#endif//RBGORANDOM_DEVMAIN

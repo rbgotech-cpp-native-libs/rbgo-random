@@ -1,3 +1,4 @@
+#ifdef RBGORANDOM_DEVMAIN
 #include <stdlib.h>//system, exit, atoi
 #include <stdio.h>//puts, printf, scanf
 
@@ -71,4 +72,4 @@ int main(){
 	}
 }
 
-
+#endif//RBGORANDOM_DEVMAIN

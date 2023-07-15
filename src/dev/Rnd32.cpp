@@ -1,3 +1,4 @@
+#ifdef RBGORANDOM_DEVMAIN
 #include <dev/main.h>
 #include <stdio.h>
 
@@ -60,3 +61,5 @@ void Rnd32::reset(){
 }
 
 }//ns
+
+#endif//RBGORANDOM_DEVMAIN
